@@ -1,3 +1,6 @@
+import FeedbackOptions from './FeedbackOptions';
+import Notification from './Notification';
+
 export const App = () => {
   return (
     <div
@@ -10,7 +13,8 @@ export const App = () => {
         color: '#010101',
       }}
     >
-      React homework
+      <FeedbackOptions />
+      <Notification />
     </div>
   );
 };
