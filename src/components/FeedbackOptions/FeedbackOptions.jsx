@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import styles from './FeedbackOptions.module.css';
+// import styles from './FeedbackOptions.module.css';
 
 class FeedbackOptions extends Component {
   render() {
