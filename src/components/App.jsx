@@ -1,5 +1,6 @@
 import FeedbackOptions from './FeedbackOptions';
 import Notification from './Notification';
+import Section from './Section';
 
 export const App = () => {
   return (
@@ -15,6 +16,7 @@ export const App = () => {
     >
       <FeedbackOptions />
       <Notification />
+      <Section />
     </div>
   );
 };
